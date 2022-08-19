@@ -1,0 +1,101 @@
+.cfvsw-attribute-type-span {
+	display: flex;
+	align-items: center;
+	float: right;
+	justify-content: space-between;
+	position: absolute;
+	right: 30px;
+}
+li.cfvsw_tab_options.cfvsw_tab_tab a::before {
+	content: "\f524" !important;
+}
+.wc-metaboxes-wrapper div.cfvsw-attribute-wrapper > h3 {
+	cursor: pointer;
+}
+.wc-metaboxes-wrapper div.cfvsw-attribute-wrapper.open > h3 {
+	border-bottom: 1px solid #eee;
+}
+.wc-metaboxes-wrapper .wc-metabox.cfvsw-attribute-wrapper:last-of-type {
+	border-bottom: 1px solid #c3c4c7;
+}
+.cfvsw-attribute-type-span label {
+	margin-right: 10px;
+}
+
+.cfvsw-attribute-type-span .select2-container {
+	min-width: 120px;
+}
+.cfvsw-attribute-itemes {
+	padding: 30px;
+}
+
+.cfvsw-attribute-item-container {
+	display: none;
+}
+.cfvsw-attribute-item-container > div {
+	display: flex;
+	padding: 8px 28px;
+}
+.cfvsw-attribute-item-container .cfvsw-attribute-label {
+	width: 40%;
+}
+.cfvsw-attribute-label > label {
+	font-weight: 600;
+	line-height: 2.3rem;
+}
+
+.cfvsw-attribute-item-container .cfvsw-attribute-field {
+	width: 60%;
+}
+.cfvsw-attribute-field.field-image {
+	display: flex;
+	align-items: center;
+	grid-gap: 10px;
+}
+.cfvsw-attribute-field.field-image .button-wrapper {
+	display: flex;
+	grid-gap: 10px;
+}
+.cfvsw-attribute-field .cfvsw-image-preview {
+	width: 60px;
+	max-height: 80px;
+	object-fit: contain;
+}
+.cfvsw-save-reset-swatches.hidden-buttons {
+	display: none;
+}
+.cfvsw-save-reset-swatches {
+	padding: 9px 12px;
+	display: flex;
+	grid-gap: 12px;
+}
+#cfvsw_remove_image_attr_item {
+	display: none;
+}
+
+#cfvsw_swatches_settings .wc-metabox > .cfvsw-attribute-heading > .handlediv.close::before {
+	content: "\f140" !important;
+}
+#cfvsw_swatches_settings .wc-metabox > .cfvsw-attribute-heading > .handlediv.open::before {
+	content: "\f142" !important;
+}
+#cfvsw_swatches_settings div.cfvsw-swatches-settings-notice {
+	display: none;
+	margin: 10px !important;
+}
+
+#cfvsw_swatches_settings div.cfvsw-swatches-settings-notice.no-product {
+	display: block;
+	border: 1px solid #c3c4c7;
+	border-left-width: 4px;
+	border-left-color: #ef5252;
+	padding-left: 12px;
+}
+.cfvsw-swatches-no-visible-attr {
+	border: 1px solid #c3c4c7;
+	border-left-width: 4px;
+	border-left-color: #ef5252;
+	margin: 10px;
+	padding: 10px;
+	padding-left: 12px;
+}
